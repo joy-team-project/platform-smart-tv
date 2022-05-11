@@ -7,6 +7,7 @@ import { obfuscator } from "rollup-obfuscator";
 import pkg from "./package.json";
 
 export default {
+  moduleSideEffects: true,
   input: "src/index.ts",
   output: [
     {

@@ -13,7 +13,7 @@
     "prepack": "yarn build",
     "prebuild": "yarn clean",
     "build": "rollup -c",
-    "clean": "rimraf lib my-react-package-*.tgz",
+    "clean": "rimraf lib platform-smart-tv-*.tgz",
     "watch": "rollup -cw"
   },
   "keywords": [],
@@ -21,16 +21,13 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.0",
     "@rollup/plugin-node-resolve": "^13.0.5",
-    "node-sass": "^7.0.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.49.0",
     "rollup-obfuscator": "^3.0.1",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.4.0",
     "typescript": "^4.2.4"
-  },
-  "dependencies": {
-    "tslib": "^2.4.0"
   }
 }
