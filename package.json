@@ -18,6 +18,13 @@
   },
   "keywords": [],
   "author": "Nguyễn Sỹ Thành Công <thanhcongns94@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joy-team-project/platform-smart-tv"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/joy-team-project"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.0",
     "@rollup/plugin-node-resolve": "^13.0.5",
